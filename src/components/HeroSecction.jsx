@@ -4,15 +4,15 @@ function Hero() {
       id="home"
       className="h-screen w-full flex flex-col items-center justify-center bg-white text-gray-900 dark:bg-gray-950 dark:text-white px-4"
     >
-      <p className="text-lg">Hi, I'm</p>
+      <span className="text-3xl font-bold">🙋‍♀️ ✋ Hi</span>
       <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold my-2">
-        Habtamu
+        I'm Habtamu
       </h1>
       <h2 className="text-2xl md:text-4xl text-blue-600 dark:text-blue-400 mb-4">
         Frontend Developer
       </h2>
       <p className="text-center max-w-xl text-lg">
-        I build beautiful and responsive websites using React, Tailwind CSS, and
+        I build beautiful and responsive websites using React, Tailwind CSS and
         modern web technologies.
       </p>
       <div className="flex gap-4 mt-6">

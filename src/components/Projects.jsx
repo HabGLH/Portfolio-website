@@ -1,19 +1,20 @@
 const projects = [
   {
-    title: "Portfolio Website",
+    title: "Detecting Nosie",
     image: "Project view - Copy.jpeg",
-    description: "Responsive personal website using React and Tailwind CSS.",
-    tech: ["React", "Tailwind", "Vite"],
+    description:
+      "This helps us know what is mosie leable for students to know best time and plase for reading.This my frist the best practice web-site",
+    tech: ["HTML", "CSS", "JavaScript"],
     live: "https://yourportfolio.com",
-    code: "https://github.com/yourname/portfolio",
+    code: "https://github.com/HabGLH/Detecting-Noise",
   },
   {
-    title: "To-Do App",
+    title: "Journal",
     image: "/projects/todo.png",
-    description: "Simple To-Do app with local storage & filtering features.",
-    tech: ["JavaScript", "HTML", "CSS"],
+    description: "Simple daily Journal web-site this help take daily note.",
+    tech: ["HTML", "CSS", "JavaScript"],
     live: "https://todo-demo.com",
-    code: "https://github.com/yourname/todo-app",
+    code: "https://github.com/HabGLH/Journal1",
   },
   {
     title: "Blog Platform (Coming Soon)",
@@ -27,7 +28,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-white dark:bg-gray-900 py-16 px-6">
+    <section id="projects" className="bg-white dark:bg-gray-950 py-16 px-6">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-10 text-gray-800 dark:text-white">
           Projects

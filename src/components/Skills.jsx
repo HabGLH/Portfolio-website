@@ -35,24 +35,24 @@ function Skills() {
       skills: [
         { icon: FaHtml5, name: "HTML", level: 90 },
         { icon: FaCss3Alt, name: "CSS", level: 85 },
-        { icon: FaJs, name: "JavaScript", level: 80 },
+        { icon: FaJs, name: "JavaScript", level: 75 },
         { icon: FaReact, name: "React", level: 85 },
-        { icon: SiTailwindcss, name: "Tailwind CSS", level: 75 },
+        { icon: SiTailwindcss, name: "Tailwind CSS", level: 80 },
       ],
     },
     {
       title: "Backend",
       skills: [
-        { icon: FaNodeJs, name: "Node.js", level: 70 },
-        { icon: SiMongodb, name: "MongoDB", level: 65 },
-        { icon: SiMysql, name: "MySQL", level: 70 },
+        { icon: FaNodeJs, name: "Node.js", level: 10 },
+        { icon: SiMongodb, name: "MongoDB", level: 15 },
+        { icon: SiMysql, name: "MySQL", level: 25 },
       ],
     },
     {
       title: "Tools",
       skills: [
-        { icon: FaGitAlt, name: "Git", level: 80 },
-        { icon: SiGithub, name: "GitHub", level: 80 },
+        { icon: FaGitAlt, name: "Git", level: 85 },
+        { icon: SiGithub, name: "GitHub", level: 70 },
       ],
     },
   ];
@@ -61,7 +61,7 @@ function Skills() {
     <section
       id="skills"
       ref={sectionRef}
-      className="py-16 bg-gray-100 dark:bg-gray-900"
+      className="py-16 bg-gray-100 dark:bg-gray-950"
     >
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">
@@ -80,7 +80,7 @@ function Skills() {
               <div className="flex flex-wrap justify-center gap-4 mb-6">
                 {skills.map(({ icon: Icon, name, level }, idx) => (
                   <div key={idx} className="flex flex-col items-center">
-                    <div className="text-4xl text-gray-700 dark:text-white hover:text-blue-500 transition-colors mb-3">
+                    <div className="text-4xl text-gray-700 dark:text-white hover:text-blue-500 dark:hover:text-blue-500 transition-colors mb-3">
                       <Icon />
                     </div>
 

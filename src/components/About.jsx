@@ -2,11 +2,11 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen px-6 py-16 bg-white dark:bg-gray-900 text-gray-800 dark:text-white"
+      className="min-h-screen px-6 py-16 bg-white dark:bg-gray-950 text-gray-800 dark:text-white"
     >
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
-        <p className="text-lg leading-8">
+        <p className="text-lg leading-8 text-justify">
           Hi! 👋 I'm a passionate{" "}
           <span className="font-semibold text-blue-500">
             Computer Science student
@@ -19,7 +19,7 @@ const About = () => {
           tech industry.
         </p>
 
-        <p className="mt-6 text-lg leading-8">
+        <p className="mt-6 text-lg leading-8 text-justify">
           My focus is on{" "}
           <span className="font-semibold">Frontend Development</span>, but I’m
           also exploring backend technologies like Node.js and databases. I'm
